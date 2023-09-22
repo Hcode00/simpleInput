@@ -25,7 +25,7 @@ import s "github.com/Hcode00/simpleInput"
 To get a single input value, call the input function with a single prompt and retrieve the first element of the resulting slice:
 
 ```go
-name := s.input("Enter your name: ")[0] // John
+name := s.Input("Enter your name: ")[0] // John
 fmt.Printf("Hello %s.\n", name) // Hello John
 ```
 
@@ -34,7 +34,7 @@ fmt.Printf("Hello %s.\n", name) // Hello John
 To get multiple input values, call the input function with multiple prompts and retrieve the element
 
 ```go
-inputs := s.input("Enter your name: ", "Enter your age: ", "Enter your gender: ") // John 21 Male
+inputs := s.Input("Enter your name: ", "Enter your age: ", "Enter your gender: ") // John 21 Male
 name, age, gender := inputs[0], inputs[1], inputs[2] // name = "John" , age = "21" , gender = "Male"
 fmt.Printf("Hello %s, you are %s years old and you are a %s.\n", name, age, gender) //Hello John, you are 21 years old and you are a Male.\n
 ```
