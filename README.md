@@ -1,6 +1,10 @@
 # simpleInput
 
-simpleInput is a Go package that provides a simple way to prompt users for input in the command line.
+simpleInput is a Go package that provides a simple and efficient way to prompt users for input in the command line.
+With simpleInput, developers can save time and effort by eliminating the need to deal with pointers or addresses, and by allowing them to input multiple values in a single line of code.
+The package includes a single function, input, which takes one or more string arguments as prompts and returns a slice of strings containing the user's input values.
+The function uses the bufio package to read input values from the standard input, and then returns the input values as a slice.
+This code is a great starting point for developers who want to quickly and easily prompt users for input in their Go projects, without having to write multiple lines of code for each message or input assignment.
 
 ## Installation
 
