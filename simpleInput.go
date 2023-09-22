@@ -24,7 +24,3 @@ func input(str ...string) []string {
 	}
 	return Inputs
 }
-
-func main() {
-	input()
-}
