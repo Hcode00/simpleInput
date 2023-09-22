@@ -11,16 +11,16 @@ import (
 // If no values are inputted, it returns nil.
 func input(str ...string) []string {
 
-	var inputs []string
+	var Inputs []string
 	scanner := bufio.NewScanner(bufio.NewReader(os.Stdin))
 
 	for _, s := range str {
 		fmt.Print(s)
 		scanner.Scan()
-		inputs = append(inputs, scanner.Text())
+		Inputs = append(Inputs, scanner.Text())
 	}
-	if len(inputs) == 0 {
+	if len(Inputs) == 0 {
 		return nil
 	}
-	return inputs
+	return Inputs
 }
