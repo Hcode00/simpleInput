@@ -53,11 +53,3 @@ for i := 0; i < 3; i++ {
 }
 fmt.Printf("You entered: %v\n", inputs) // You entered: [12 25 Hello World]
 ```
-
-# Contributing
-
-If you find a bug or have a feature request, please open an issue on GitHub. Pull requests are also welcome.
-
-# License
-
-This package is licensed under the MIT License.
